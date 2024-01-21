@@ -23,7 +23,7 @@ body {
 .main .black-box {
     height: inherit;
     background-color: black;
-    opacity: .44;
+    opacity: .5;
     width: 100%;
     position: absolute;
     top:0;
@@ -72,6 +72,24 @@ nav button {
     text-align: center;
 }
 
+.btn {
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+}
+.main-text-input input {
+    font-size: 16px;
+    padding: 10px;
+    background-color: black;
+    opacity: .7;
+    border: 1px solid rgb(35, 35, 35);
+    border-radius: 4px;
+    width: 375px;
+    height: 56px;
+}
 .line {
     background-color: rgb(35, 35, 35);
     height: 10px;
@@ -83,12 +101,31 @@ nav button {
     align-items: center;
 }
 
+.tv-box-text {
+    width: 725px;
+}
+
 .tv-box h1 {
     color: #fff;
     font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
 }
 
 .tv-box p {
     color: #fff;
     font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
 }
+
+.tv-box img {
+    position: relative;
+}
+
+.tv-box video {
+    position: absolute;
+    right: 50px;
+}
+
