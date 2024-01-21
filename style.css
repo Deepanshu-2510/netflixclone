@@ -76,3 +76,19 @@ nav button {
     background-color: rgb(35, 35, 35);
     height: 10px;
 }
+
+.tv-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tv-box h1 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.tv-box p {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+}
