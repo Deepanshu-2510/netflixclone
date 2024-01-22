@@ -72,7 +72,14 @@ nav button {
     text-align: center;
 }
 
-.dd 
+.dd-lang {
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    background-color: transparent;
+    border: 1px grey solid;
+    border-radius: 4px;
+}
 
 .btn {
     padding: 10px;
@@ -84,7 +91,8 @@ nav button {
 }
 
 .red-btn-small {
-    padding: 7px 15px;
+    padding: 8px 15px;
+    font-size: 16px;
 }
 
 .red-btn {
