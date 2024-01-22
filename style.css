@@ -40,6 +40,7 @@ nav {
     align-items: center;
     width: 80%;
     height: 65px;
+    padding-top: 20px;
 
 }
 nav button {
@@ -108,36 +109,38 @@ nav button {
 .main-text-input input {
     font-size: 16px;
     padding: 10px;
-    background-color: black;
-    opacity: .7;
+    background-color: rgba(23, 23, 23, .7);
     border: 1px solid rgb(35, 35, 35);
     border-radius: 4px;
     width: 375px;
     height: 56px;
+    color: #b9b9b9;
 }
 .line {
     background-color: rgb(35, 35, 35);
     height: 10px;
 }
 
-.tv-box {
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70vw;
+    margin: auto;
 }
 
-.tv-box-text {
+.first-text {
     width: 725px;
 }
 
-.tv-box h1 {
+.first h1 {
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-size: 48px;
 }
 
-.tv-box p {
+.first p {
     color: #fff;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -145,12 +148,19 @@ nav button {
 
 }
 
-.tv-box img {
+.first .image {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+/* .first img {
+    position: relative;  
+} */
 
-.tv-box video {
+.first video {
     position: absolute;
-    right: 50px;
+    width: 432px;
+    z-index: -1;
 }
 
