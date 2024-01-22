@@ -183,6 +183,9 @@ nav button {
 
 .faq {
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .faq h1 {
@@ -207,4 +210,45 @@ nav button {
 
 .faq .box:hover {
     background-color: #414141;
+}
+
+.faq .box-6 {
+    margin-bottom: 50px;
+}
+
+.faq p {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.faq .main-text-input {
+    text-align: center;
+}
+
+footer {
+    /* margin: 50px 0; */
+    padding: 70px 0;
+}
+
+.footer-link {
+    width: 70vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.footer-link a{
+    color: rgba(255,255,255,0.7);
+}
+.footer-link a:first-child{
+    grid-column: 1/5;
+    color: rgba(255,255,255,0.7);
+}
+.copy a{
+    margin-top: 50px;
+    text-align: center;
+    color: #fff;
+    display: block;
 }
