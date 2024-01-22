@@ -74,12 +74,14 @@ nav button {
 }
 
 .dd-lang {
-    padding: 10px;
+    padding: 10px 15px;
     outline: none;
     color: #fff;
     background-color: transparent;
     border: 1px grey solid;
     border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
 }
 
 .btn {
@@ -89,6 +91,7 @@ nav button {
     background-color: red;
     border-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 .red-btn-small {
@@ -176,4 +179,32 @@ nav button {
     position: absolute;
     top: 35px;
     width: 520px;
+}
+
+.faq {
+    padding: 50px 0;
+}
+
+.faq h1 {
+    color: #fff;
+    font-size: 3.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.faq .box {
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: rgb(45, 45, 45);
+    width: 77vw;
+    margin: auto;
+    padding: 25px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.faq .box:hover {
+    background-color: #414141;
 }
