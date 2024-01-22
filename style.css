@@ -72,6 +72,8 @@ nav button {
     text-align: center;
 }
 
+.dd 
+
 .btn {
     padding: 10px;
     outline: none;
@@ -79,6 +81,21 @@ nav button {
     background-color: red;
     border-radius: 4px;
     border: none;
+}
+
+.red-btn-small {
+    padding: 7px 15px;
+}
+
+.red-btn {
+    font-family: "Poppins", sans-serif;
+    padding: 9px 18px;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+.main-text-input {
+    display: flex;
+    margin-top: 15px;
 }
 .main-text-input input {
     font-size: 16px;
