@@ -5,17 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recommendation</title>
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
         .container {
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            
+            background: url('https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
         }
         .card {
-            height: 100px;
-            width: 100px;
-            background-color: blueviolet;
+            height: 60vh;
+            width: 30vw;
+            border-radius: 10px;
+            background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px soild rgba(255, 255, 255, 0.18);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         }
     </style>
 </head>
