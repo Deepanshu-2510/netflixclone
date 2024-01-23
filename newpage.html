@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,10 @@
         * {
             margin: 0;
             padding: 0;
+            font-family: sans-serif;
+            font-weight: 900;
         }
+
         .container {
             display: flex;
             justify-content: center;
@@ -19,23 +23,59 @@
             background-position: center center;
             background-size: cover;
         }
+
         .card {
             height: 60vh;
             width: 30vw;
             border-radius: 10px;
-            background: linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
             backdrop-filter: blur(10px);
             -webkit-backdrop-filter: blur(10px);
             border: 1px soild rgba(255, 255, 255, 0.18);
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
         }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image img {
+            width: 300px;
+            border-radius: 10px;
+        }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="card">
-
+            <h1>Recommended For You</h1>
+            <div class="image">
+                <!-- <img src="assets/movie_poster/batman.jpg" alt="logo"> -->
+            </div>
         </div>
     </div>
+    <script>
+        let random = Math.floor(Math.random() * 5);
+        let movieArray = [
+            'assets/movie_poster/batman.jpg',
+            'assets/movie_poster/jurassic.jpg',
+            'assets/movie_poster/kgf.jpg',
+            'assets/movie_poster/kungfupanda.jpg',
+            'assets/movie_poster/yourname.jpg'
+        ];
+        let imgElement = document.createElement('img');
+        imgElement.src = movieArray[random];
+        imgElement.alt = 'Movie image';
+        document.querySelector('.image').appendChild(imgElement);
+    </script>
 </body>
+
 </html>
