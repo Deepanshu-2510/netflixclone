@@ -241,10 +241,15 @@ footer {
     width: 70vw;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    height: auto;
 }
-
+@media screen and (max-width: 1080px){
+    .footer-link {
+        grid-template-columns: 1fr 1fr;
+    }
+}
 .footer-link a{
     color: rgba(255,255,255,0.7);
     display: inline;
@@ -253,6 +258,8 @@ footer {
     grid-column: 1/5;
     color: rgba(255,255,255,0.7);
 }
+
+
 .copy a{
     margin-top: 50px;
     text-align: center;
