@@ -133,6 +133,12 @@ nav button {
     padding: 50px 0;
 }
 
+@media screen and (max-width: 1080px){
+    .first {
+        flex-wrap: wrap;
+    }
+}
+
 .first-text {
     width: 725px;
 }
@@ -241,6 +247,7 @@ footer {
 
 .footer-link a{
     color: rgba(255,255,255,0.7);
+    display: inline;
 }
 .footer-link a:first-child{
     grid-column: 1/5;
