@@ -129,10 +129,22 @@
                 <span><a href="#">Only on Netflix</a></span>
             </div>
             <div class="copy">
-                <p><a href="https://github.com/Deepanshu-2510" target="_blank"><span>&copy; Deepanshu-2510</span></a></p>
+                <p><a href="https://github.com/Deepanshu-2510" target="_blank"><span>&copy; Deepanshu-2510</span></a>
+                </p>
             </div>
         </footer>
     </div>
+    <script>
+        var buttons = document.getElementsByClassName('red-btn');
+
+        if (buttons.length > 0) {
+            buttons[0].addEventListener('click', function () {
+                window.location.href = 'newpage.html';
+            });
+        } else {
+            console.error('Button not found with the specified class name.');
+        }
+    </script>
 </body>
 
 </html>
